@@ -251,7 +251,6 @@ C:\Work\RestsharpZip\RestsharpZip\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Test
 C:\Work\RestsharpZip\RestsharpZip\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Work\RestsharpZip\RestsharpZip\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Work\RestsharpZip\RestsharpZip\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.csprojAssemblyReference.cache
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.AssemblyInfoInputs.cache
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.AssemblyInfo.cs
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.csproj.CoreCompileInputs.cache
@@ -259,3 +258,4 @@ C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.csproj.Co
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.dll
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.pdb
 C:\Work\RestsharpZip\RestsharpZip\obj\Debug\netcoreapp3.1\RestsharpZip.genruntimeconfig.cache
+C:\Work\RestsharpZip\RestsharpZip\bin\Debug\netcoreapp3.1\MyReportWithPieChart.cshtml
