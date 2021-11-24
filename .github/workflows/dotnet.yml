@@ -19,10 +19,24 @@ jobs:
         dotnet-version: 3.1.301
     - name: Restore dependencies
       run: dotnet restore
+      
     - name: Build
       run: dotnet build --no-restore
+      
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      
+    - name:  Intall/Update LivingDocs
+      run: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI    
+      
+    - name: Generate Living Docs  
+      run: livingdoc test-assembly RestsharpZip/bin/Debug/netcoreapp3.1/RestsharpZip.dll -t RestsharpZip/bin/Debug/netcoreapp3.1/TestExecution.json      
+      
+    #- name: Upload LivingDocs artefact
+    #  uses: actions/upload-artifact@v2
+    #  with:
+    #    name: Living docs report
+    #    path: /home/runner/work/Specflow-with-Selenium-4/Specflow-with-Selenium-4/LivingDoc.html      
       
       # upload report as an artefact
     - name: Archive execution report
