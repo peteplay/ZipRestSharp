@@ -7,6 +7,10 @@
 - Specflow+ LivingDoc
 - API Under Test http://api.zippopotam.us
 
+NB. For all the results to show LivingDocs there can only be 1 thread
+
+To run teh tests in VS, remember to congigre the run settings
+
 
 **Living Doc**
 ![RestSharp LivingDoc](https://user-images.githubusercontent.com/4279571/103481673-6b16e480-4dd4-11eb-9d20-32bb75dd3c55.JPG)
