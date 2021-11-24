@@ -32,14 +32,14 @@ jobs:
     - name: Generate Living Docs  
       run: livingdoc test-assembly RestsharpZip/bin/Debug/netcoreapp3.1/RestsharpZip.dll -t RestsharpZip/bin/Debug/netcoreapp3.1/TestExecution.json      
       
-    #- name: Upload LivingDocs artefact
-    #  uses: actions/upload-artifact@v2
-    #  with:
-    #    name: Living docs report
-    #    path: /home/runner/work/Specflow-with-Selenium-4/Specflow-with-Selenium-4/LivingDoc.html      
+    - name: Archive LivingDocs artefact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Living docs report
+        path: /home/runner/work/ZipRestSharp/ZipRestSharp/LivingDoc.html
       
       # upload report as an artefact
-    - name: Archive execution report
+    - name: Archive specflow report
       uses: actions/upload-artifact@v2
       with:
         name: specflow-execution-report
